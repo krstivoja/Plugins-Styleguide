@@ -1,0 +1,31 @@
+.colors{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.color-wrap{
+    width: 150px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    font-size: 0.8em;
+    padding: 5px;
+    border:1px solid  rgb(225, 225, 225);
+    
+    .colorbox{
+        width: 100%;
+        aspect-ratio: 1/1;
+        background-color: rgb(225, 225, 225);
+        margin-bottom: 10px;
+
+    }
+
+    .pri{   background-color: $pri;}   
+    .sec{   background: $sec;}
+    .text{  background: $text;}
+    .bg{    background: $bg;}
+    .text_sec{  background: $text_sec;}
+    .bg_sec{    background: $bg_sec;}
+    .border{    background: $border;}
+    .disabled{  background: $disabled;}
+}
