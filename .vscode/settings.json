@@ -1,0 +1,10 @@
+{
+    "files.exclude": {
+        "_site": true,
+        ".gitignore": true,
+        ".jekyll-cache": true,
+        "config.codekit3": true,
+        "Gemfile": true,
+        "Gemfile.lock": true
+    }
+}

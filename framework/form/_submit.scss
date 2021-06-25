@@ -1,0 +1,53 @@
+.dp-btn{
+  color: $action;
+  border: 2px solid $action; 
+  border-radius: 2px;
+  padding: 5px 10px;
+  font-size: 1em;
+
+  &:hover{
+  		border: 2px solid $action--hover;   	
+  }
+
+  &:focus{
+      border: 2px solid $action; 
+      outline: none;  }
+
+  &:active{
+      border: 2px solid $action;  
+      outline: none;  } 
+}
+
+.dp-btn--pri{
+  color: white;
+  background-color: $action;
+  padding: 8px 12px;
+  font-size: 1.3em;
+
+  &:hover{
+  		background-color: $action--hover;   	
+  		border: 2px solid $action--hover;   	
+  }  
+}
+
+.dp-btn--sec{
+  color: white;
+  background-color: $acent;
+  border: 2px solid $acent;   	
+  padding: 8px 12px;
+  font-size: 1.3em;
+
+  &:hover{
+  		background-color: $acent--hover;   	
+  		border: 2px solid $acent--hover;   	
+
+  }
+
+  &:focus{
+      border: 2px solid $acent--hover;  
+      outline: none;  }
+
+  &:active{
+      border: 2px solid $acent--hover;  
+      outline: none;}  
+}

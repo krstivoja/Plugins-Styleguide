@@ -5,28 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=h1, initial-scale=1.0">
     <title>dPlugins Styleguide</title>
+    <link rel="stylesheet" href="theme/theme.css">
 </head>
 <body>
     <header>
-        <a class='c-logo__link' href='{{ site.baseurl }}/'>{{ site.title }}</a>
-        <nav>
-            {% for page in site.pages %}
-                {% unless page.name == '404.md' %}
-                {% if page.title %}
-                    <li class='c-nav__item' role='presentation'>
-                    <a class='c-nav__link' href='{{ page.url | prepend: site.baseurl }}'>{{ page.title }}</a>
-                    </li>
-                {% endif %}
-                {% endunless %}
-            {% endfor %}    
-        </nav>
-        
+        <div class="wrap">
+            <a class='c-logo__link' href='{{ site.baseurl }}/'>{{ site.title }}</a>
+            <nav>
+                {% for page in site.pages %}
+                    {% unless page.name == '404.md' %}
+                    {% if page.title %}
+                        <li class='c-nav__item' role='presentation'>
+                        <a class='c-nav__link' href='{{ page.url | prepend: site.baseurl }}'>{{ page.title }}</a>
+                        </li>
+                    {% endif %}
+                    {% endunless %}
+                {% endfor %}    
+            </nav>        
+        </div>        
     </header>
-    
-    
-    test
 
-    {{ content }}
+    <div class="wrap">
+        <main>
+            {{ content }}
+        </main>
+        
+    </div>
 
 </body>
 </html>
