@@ -5,6 +5,7 @@ layout: default
 
 # dPlugins Styleguide
 Admin UI for WordPress Plugins
+test
 
 ***
 

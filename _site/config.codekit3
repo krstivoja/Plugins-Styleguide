@@ -52,6 +52,14 @@
       "rFN" : 0,
       "uCM" : 0
     },
+    "\/_pages\/elements.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_pages\/elements.html",
+      "oF" : 0
+    },
     "\/_pages\/elements.md" : {
       "cB" : 0,
       "cS" : 0,
@@ -77,6 +85,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/_posts\/2021-06-25-welcome-to-jekyll.markdown",
+      "oF" : 0
+    },
+    "\/_site\/_pages\/elements.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/_pages\/elements.html",
       "oF" : 0
     },
     "\/_site\/404.html" : {
@@ -143,6 +159,40 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/_site\/jekyll\/update\/2021\/06\/25\/welcome-to-jekyll.html",
+      "oF" : 0
+    },
+    "\/_site\/theme\/_pages.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/_site\/theme\/_pages.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/_site\/theme\/theme.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/theme\/theme-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/_site\/theme\/theme.css.map" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/theme\/theme.css.map",
       "oF" : 0
     },
     "\/_site\/theme\/theme.scss" : {
@@ -321,14 +371,6 @@
       "oAP" : "\/Gemfile.lock",
       "oF" : 0
     },
-    "\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/index.html",
-      "oF" : 0
-    },
     "\/index.md" : {
       "cB" : 0,
       "cS" : 0,
@@ -338,9 +380,9 @@
       "eSQ" : 1,
       "ft" : 4096,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/index.html",
-      "oF" : 0,
+      "oF" : 1,
       "oFM" : 0,
       "oS" : 0,
       "pHT" : 0,
