@@ -52,6 +52,44 @@
       "rFN" : 0,
       "uCM" : 0
     },
+    "\/_pages\/components.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/_pages\/components.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/_pages\/element\/buttons.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/_pages\/element\/buttons.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
     "\/_pages\/elements.md" : {
       "cB" : 0,
       "cS" : 0,
@@ -85,6 +123,22 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/_site\/404.html",
+      "oF" : 0
+    },
+    "\/_site\/buttons.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/buttons.html",
+      "oF" : 0
+    },
+    "\/_site\/components.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_site\/components.html",
       "oF" : 0
     },
     "\/_site\/elements.html" : {
@@ -192,6 +246,33 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/_staff_members\/test1.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/_staff_members\/test1.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/_staff_members\/test2.dm" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_staff_members\/test2.dm",
+      "oF" : 0
     },
     "\/.gitignore" : {
       "cB" : 0,

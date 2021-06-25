@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Elements
+title: Buttons
 ---
 
 <h1>Elements</h1>

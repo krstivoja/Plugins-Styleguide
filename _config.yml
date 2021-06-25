@@ -80,3 +80,8 @@ defaults:
       path: '_pages'
     values:
       permalink: /:basename:output_ext
+
+# Collections
+collections:
+  staff_members:
+    output: true
