@@ -10,12 +10,14 @@
 <body>
     <header>
         <div class="wrap">
-            <a class='logo__link' href='{{ site.baseurl }}/'>{{ site.title }}</a>
+            <a class='c-logo__link' href='{{ site.baseurl }}/'>{{ site.title }}</a>
             <nav>
                 {% for page in site.pages %}
                     {% unless page.name == 'index.md' %}
-                    {% if page.title %}                        
-                        <a chref='{{ page.url | prepend: site.baseurl }}'>{{ page.title }}</a>
+                    {% if page.title %}
+                        <li class='c-nav__item' role='presentation'>
+                        <a class='c-nav__link' href='{{ page.url | prepend: site.baseurl }}'>{{ page.title }}</a>
+                        </li>
                     {% endif %}
                     {% endunless %}
                 {% endfor %}    
