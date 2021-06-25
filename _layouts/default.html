@@ -13,7 +13,7 @@
             <a class='c-logo__link' href='{{ site.baseurl }}/'>{{ site.title }}</a>
             <nav>
                 {% for page in site.pages %}
-                    {% unless page.name == '404.md' , 'index.md' %}
+                    {% unless page.name == 'index.md' %}
                     {% if page.title %}                        
                         <a chref='{{ page.url | prepend: site.baseurl }}'>{{ page.title }}</a>
                     {% endif %}
