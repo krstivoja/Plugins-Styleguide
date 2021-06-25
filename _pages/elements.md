@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About
+title: Elements
 ---
 
 You love Minimalism, and you also love writing, Type is designed for you. Type focus on showing your content in a clean and simple way, focus on images, typography, and white space.

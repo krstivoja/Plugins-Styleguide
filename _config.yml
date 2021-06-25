@@ -54,14 +54,12 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-
-
 sass:
   style: compressed
 
 plugins:
   - jekyll-paginate
-  - jekyll/tagging
+  # - jekyll/tagging
 
 include:
   - _pages
@@ -80,5 +78,5 @@ tag_permalink_style:  pretty
 defaults:
   - scope:
       path: '_pages'
-    values:
-      permalink: /:basename:output_ext
+    # values:
+    #   permalink: /:basename:output_ext

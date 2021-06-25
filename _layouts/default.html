@@ -7,6 +7,22 @@
     <title>dPlugins Styleguide</title>
 </head>
 <body>
+    <header>
+        <a class='c-logo__link' href='{{ site.baseurl }}/'>{{ site.title }}</a>
+        <nav>
+            {% for page in site.pages %}
+                {% unless page.name == '404.md' %}
+                {% if page.title %}
+                    <li class='c-nav__item' role='presentation'>
+                    <a class='c-nav__link' href='{{ page.url | prepend: site.baseurl }}'>{{ page.title }}</a>
+                    </li>
+                {% endif %}
+                {% endunless %}
+            {% endfor %}    
+        </nav>
+        
+    </header>
+    
     
     test
 
