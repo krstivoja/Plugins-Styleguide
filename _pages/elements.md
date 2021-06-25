@@ -8,7 +8,7 @@ title: Elements
 <h2>Form</h2>
 
 <h3>Radio</h3>
-<div class="dp--radio">
+<div class="dp__radio">
     <label
         ><input
           type="radio"
@@ -25,7 +25,7 @@ title: Elements
 </div>
 
 {% highlight html %}
-<div class="dp--radio">
+<div class="dp__radio">
     <label
         ><input
           type="radio"
@@ -44,7 +44,7 @@ title: Elements
 
 
 <h3>Checkbox</h3>
-<div class="dp--checkbox">
+<div class="dp__checkbox">
     <label
           ><input
             type="checkbox"
@@ -60,7 +60,7 @@ title: Elements
     </label>    
 </div>
 {% highlight html %}
-<div class="dp--checkbox">
+<div class="dp__checkbox">
     <label
           ><input
             type="checkbox"
@@ -79,7 +79,7 @@ title: Elements
 
 
 <h3>Switch</h3>
-<div class="dp--switch">    
+<div class="dp__switch">    
       <label class="rwmb-switch-label rwmb-switch-label--rounded">
         <input
           type="checkbox"
@@ -94,7 +94,7 @@ title: Elements
 </div>
 
 {% highlight html %}
-<div class="dp--switch">    
+<div class="dp__switch">    
       <label class="rwmb-switch-label rwmb-switch-label--rounded">
         <input
           type="checkbox"
@@ -113,7 +113,7 @@ title: Elements
 
 <h3>Input</h3>
 
-<div class="dp--input">
+<div class="dp__input">
     <input type="text" placeholder="text"> <br><br>
     <input type="date"> <br><br>
     <input type="datetime-local">  <br><br>
@@ -137,7 +137,7 @@ title: Elements
 </div>    
 
 {% highlight html %}
-<div class="dp--input">
+<div class="dp__input">
     <input type="text" placeholder="text">
     <input type="date">
     <input type="datetime-local"> 
@@ -162,7 +162,7 @@ title: Elements
 {% endhighlight %}
 
 <h3>Select</h3>
-<label class="dp--select">
+<label class="dp__select">
     <select name="something">
         <option value="one">Option 1</option>
         <option value="two">Option 2</option>
@@ -171,7 +171,7 @@ title: Elements
 </label>
 
 {% highlight html %}
-<label class="dp--select">
+<label class="dp__select">
     <select name="something">
         <option value="one">Option 1</option>
         <option value="two">Option 2</option>
@@ -182,17 +182,17 @@ title: Elements
 
 <h3>Buttons</h3>
 
-<a href="#" class="btn--pri"></a>
+<a href="#" class="dp__btn-pri"></a>
 {% highlight html %}
-<a href="#" class="btn--pri"></a>
+<a href="#" class="dp__btn-pri"></a>
 {% endhighlight %}
 
-<a href="#" class="btn--sec"></a>
+<a href="#" class="dp__btn-sec"></a>
 {% highlight html %}
-<a href="#" class="btn--sec"></a>
+<a href="#" class="dp__btn-sec"></a>
 {% endhighlight %}
 
-<a href="#" class="btn--outline"></a>
+<a href="#" class="dp__btn-outline"></a>
 {% highlight html %}
-<a href="#" class="btn--outline"></a>
+<a href="#" class="dp__btn-outline"></a>
 {% endhighlight %}
