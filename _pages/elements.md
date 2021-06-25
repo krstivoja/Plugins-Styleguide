@@ -196,8 +196,3 @@ title: Elements
 {% highlight html %}
 <a href="#" class="btn--outline"></a>
 {% endhighlight %}
-
-
-
-  
-  
