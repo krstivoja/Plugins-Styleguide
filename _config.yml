@@ -85,3 +85,5 @@ defaults:
 collections:
   elements:
     output: true
+  components:
+    output: true    

@@ -1,6 +1,15 @@
 {
     "files.exclude": {
+        "_components": true,
+        "_config.yml": true,
+        "_includes": true,
+        "_layouts": true,
+        "_pages": true,
+        "_posts": true,
+        "_site": true,
+        ".gitignore": true,
         ".jekyll-cache": true,
+        ".vscode": true,
         "config.codekit3": true,
         "Gemfile": true,
         "Gemfile.lock": true

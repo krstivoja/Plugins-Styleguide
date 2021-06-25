@@ -9,8 +9,9 @@
     margin-bottom: 20px;
     display: inline-block;
     font-size: 0.8em;
-    padding: 5px;
+    padding: var(--space__xs);
     border:1px solid  rgb(225, 225, 225);
+    background: $bg;
     
     .colorbox{
         width: 100%;
@@ -28,4 +29,29 @@
     .bg_sec{    background: $bg_sec;}
     .border{    background: $border;}
     .disabled{  background: $disabled;}
+}
+
+.element-wrap{
+    background-color:$bg;
+    padding: var(--space__s);
+}
+
+.icon-wrap{
+    background-color:$bg;
+    padding: var(--space__s);
+    margin-bottom: var(--space__l);
+    display: inline-flex;
+    flex-direction: column;
+    gap: var(--space__s);
+    width: 45%;
+    margin-right: 4%;
+
+    svg{
+        width: 32px;
+        height: 32px;
+    }
+
+    .highlight{
+        overflow: scroll;
+    }
 }

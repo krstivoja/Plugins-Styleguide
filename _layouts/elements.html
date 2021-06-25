@@ -3,9 +3,10 @@ layout: default
 ---
 
 {% for element in site.elements %}
-    <div class="element-wrap">
+    <div class="element-wrap" id="{{ element.slug }}">
         <h2>{{ element.title }}</h2>
         {{ element.content }}
+        
     </div>
     
 {% endfor %}
