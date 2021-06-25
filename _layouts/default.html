@@ -16,7 +16,7 @@
                     {% unless page.name == '404.md' %}
                     {% unless page.name == 'index.md' %}
                     {% if page.title %}                        
-                        <a class='c-nav__link' href='{{ page.url | prepend: site.baseurl }}'>{{ page.title }}</a>
+                        <a chref='{{ page.url | prepend: site.baseurl }}'>{{ page.title }}</a>
                     {% endif %}
                     {% endunless %}
                 {% endfor %}    
