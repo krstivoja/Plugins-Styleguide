@@ -145,32 +145,6 @@
       "oAP" : "\/_site\/jekyll\/update\/2021\/06\/25\/welcome-to-jekyll.html",
       "oF" : 0
     },
-    "\/_site\/theme\/_pages.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/_site\/theme\/_pages.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
-    "\/_site\/theme\/theme.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/_site\/theme\/theme-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
     "\/_site\/theme\/theme.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -430,6 +404,20 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/theme\/_syntax_highlighting.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/theme\/_syntax_highlighting.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/theme\/theme.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -442,13 +430,21 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/theme\/theme.css.map" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/theme\/theme.css.map",
+      "oF" : 0
+    },
     "\/theme\/theme.scss" : {
-      "aP" : 0,
-      "bl" : 0,
+      "aP" : 1,
+      "bl" : 1,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
-      "ma" : 0,
+      "ma" : 1,
       "oA" : 0,
       "oAP" : "\/theme\/theme.css",
       "oF" : 0,
@@ -2357,7 +2353,7 @@
       "strictUnits" : 0
     },
     "languageDefaultsMARKDOWN" : {
-      "autoOutputAction" : 0,
+      "autoOutputAction" : 1,
       "autoOutputPathFilenamePattern" : "*.html",
       "autoOutputPathRelativePath" : "",
       "autoOutputPathReplace1" : "",

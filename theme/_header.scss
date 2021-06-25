@@ -8,6 +8,7 @@ header{
     .wrap{
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
 
     ul, li{
@@ -18,7 +19,15 @@ header{
 
     a{
         color: inherit;
-        padding: 10px 20px;
         display: inline-block;
+        text-decoration: none;
+    }
+
+    nav a{
+        padding: 10px 20px;
+
+        &:hover{
+            opacity: 0.5;
+        }
     }
 }
