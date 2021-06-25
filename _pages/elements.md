@@ -1,9 +1,9 @@
 ---
-layout: default
+layout: elements
 title: Elements
 ---
 
-<h1>Elements</h1>
+<!-- <h1>Elements</h1>
 
 <h2>Form</h2>
 
@@ -200,4 +200,4 @@ title: Elements
 <a href="#" class="dp__btn-text">Button Text</a>
 {% highlight html %}
 <a href="#" class="dp__btn-text">Button Text</a>
-{% endhighlight %}
+{% endhighlight %} -->

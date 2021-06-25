@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+{% for element in site.elements %}
+    <div class="element-wrap">
+        <h2>{{ element.title }}</h2>
+        {{ element.content }}
+    </div>
+    
+{% endfor %}
+
+
+<style>
+    .element-wrap{
+        margin-bottom: 100px;
+    }
+</style>

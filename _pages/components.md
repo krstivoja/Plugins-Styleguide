@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Elements
+title: Components
 ---
 
 <h1>Componentns</h1>

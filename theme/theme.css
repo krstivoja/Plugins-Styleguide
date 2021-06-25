@@ -260,6 +260,10 @@ header a {
   display: inline-block;
   text-decoration: none;
 }
+header nav {
+  display: -webkit-flex;
+  display: flex;
+}
 header nav a {
   padding: 10px 20px;
 }

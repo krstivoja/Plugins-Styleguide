@@ -83,5 +83,5 @@ defaults:
 
 # Collections
 collections:
-  staff_members:
+  elements:
     output: true
