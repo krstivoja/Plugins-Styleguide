@@ -1,0 +1,23 @@
+@import '../framework/colors';
+
+@import 'base';
+@import 'header';
+
+@import 'elements';
+
+@import 'pages';
+
+
+.wrap{
+    max-width: 1600px;
+    margin: auto;
+}
+
+hr{
+    width: 60px;
+    height: 5px;
+    background-color: $text;
+    margin: 50px 0;
+
+}
+
