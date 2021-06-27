@@ -4,9 +4,11 @@
 
 .highlight {
   margin: 0;
+  margin-top: 20px;
   padding: 10px 20px;
   border-radius: 10px;
   background: $bg_sec;
+  overflow-x: scroll;
 
   .highlighter-rouge & {
     background: #FAFAFA;

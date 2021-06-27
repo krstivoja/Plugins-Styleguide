@@ -1,6 +1,11 @@
 .colors{
     display: flex;
     flex-wrap: wrap;
+
+    h3{
+        display: block;
+        min-width: 100%;
+    }
 }
 
 .color-wrap{
@@ -21,19 +26,55 @@
 
     }
 
-    .pri{   background-color: $pri;}   
-    .sec{   background: $sec;}
-    .text{  background: $text;}
-    .bg{    background: $bg;}
-    .text_sec{  background: $text_sec;}
-    .bg_sec{    background: $bg_sec;}
-    .border{    background: $border;}
-    .disabled{  background: $disabled;}
+    .pri        {   background: $pri;}   
+    .pri_h      {   background: $pri_h;}   
+    .sec        {   background: $sec;}
+    .sec_h      {   background: $sec_h;}
+    .text       {   background: $text;}
+    .bg         {   background: $bg;}
+    .text_sec   {   background: $text_sec;}
+    .bg_sec     {   background: $bg_sec;}
+    .border     {   background: $border;}
+    .disabled   {   background: $disabled;}
+    .info       {   background: $info;}
+    .alert      {   background: $alert;}
+    .success    {   background: $success;}
 }
 
 .element-wrap{
     background-color:$bg;
-    padding: var(--space__s);
+    margin-bottom: var(--space__m);
+
+    &__title{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+        padding: var(--space__s);
+
+        &:hover{
+            opacity: 0.6;
+        }
+
+        h2{
+            margin: 0;
+        }
+
+    }
+   
+    &__toggle{
+        display: block;
+        width: 32px;
+        height: 32px;
+        // background: lightgrey;
+    }
+
+    &__content{
+        display: none;
+        padding: var(--space__s);
+    }
+
 }
 
 .icon-wrap{

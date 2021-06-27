@@ -11,27 +11,34 @@ test
 
 ## Colors
 
-
-
 <div class="colors">
+  <h3>Acent</h3>
+
   <div class="color-wrap">
     <div class="colorbox pri"></div>
     Primary
   </div>
-  
+
+  <div class="color-wrap">
+    <div class="colorbox pri_h"></div>
+    Primary Hover
+  </div>  
+
   <div class="color-wrap">
     <div class="colorbox sec"></div>
+    Secondary Hover
+  </div>
+
+  <div class="color-wrap">
+    <div class="colorbox sec_h"></div>
     Secondary
   </div>
+
+  <h3>Content</h3>
 
   <div class="color-wrap">
     <div class="colorbox text"></div>
     Text
-  </div>
-  
-  <div class="color-wrap">
-    <div class="colorbox bg"></div>
-    Background
   </div>
   
   <div class="color-wrap">
@@ -40,10 +47,18 @@ test
   </div>
   
   <div class="color-wrap">
+    <div class="colorbox bg"></div>
+    Background
+  </div>
+  
+  <div class="color-wrap">
     <div class="colorbox bg_sec"></div>
     Background Secondary
   </div>
-  
+
+
+  <h3>Form</h3>
+    
   <div class="color-wrap">
     <div class="colorbox border"></div>
     Border
@@ -53,6 +68,24 @@ test
     <div class="colorbox disabled"></div>
     Disabled
   </div>
+  
+  <h3>Notifications</h3>
+    
+  <div class="color-wrap">
+    <div class="colorbox info"></div>
+    Info
+  </div>
+
+  <div class="color-wrap">
+    <div class="colorbox alert"></div>
+    Alert
+  </div>
+
+  <div class="color-wrap">
+    <div class="colorbox success"></div>
+    Success
+  </div>
+
 </div>
 
 ***

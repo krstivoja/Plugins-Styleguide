@@ -1,6 +1,8 @@
 :root {
     --pri:      #2245f8;
+    --pri-hover:#1636d7;
     --sec:      #ffeb57;
+    --sec-hover:#edba39;
 
     --text:     #000000;
     --text_sec: #606e79;    
@@ -10,11 +12,15 @@
     --border:   #dee1e3;
     --disabled: #dee1e3;
     
-    // --green: #00935a;
+    --info:     #3FA7D6;
+    --alert:    #c41c3b;
+    --success:  #59CD90;
 }
 
+$pri_h:     var(--pri-hover);
 $pri:       var(--pri);
 $sec:       var(--sec);
+$sec_h:     var(--sec-hover);
 
 $text:      var(--text);
 $text_sec:  var(--text_sec);
@@ -24,3 +30,7 @@ $bg_sec:    var(--bg_sec);
 
 $border:    var(--border);
 $disabled:  var(--disabled);
+
+$info: var(--info);
+$alert: var(--alert);
+$success: var(--success);
