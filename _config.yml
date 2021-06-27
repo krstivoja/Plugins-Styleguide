@@ -54,6 +54,8 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+permalink: pretty
+
 sass:
   style: compressed
 
@@ -89,3 +91,4 @@ collections:
     output: true
   pagedesigns:
     output: true
+    permalink: /pagedesigns/:path/

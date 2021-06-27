@@ -33,13 +33,30 @@ main {
 
 blockquote {
   background: white;
-  padding: var(--space__s);
+  padding: var(--space__xs);
   margin: 0;
   margin-bottom: var(--space__m);
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  position: relative;
 }
 blockquote strong {
-  padding: var(--space__s);
+  position: absolute;
+  top: -20px;
+  padding: var(--space__xs);
+  display: none;
+  background-color: var(--border);
+  border-radius: 5px;
+}
+blockquote:hover strong {
   display: block;
+}
+
+hr {
+  width: 60px;
+  height: 5px;
+  background-color: var(--text);
+  margin: 50px 0;
 }
 
 /**
@@ -252,6 +269,7 @@ blockquote strong {
 header {
   background-color: var(--bg);
   color: var(--text);
+  border-bottom: 1px solid var(--border);
   width: 100%;
 }
 header .wrap {
@@ -356,6 +374,9 @@ header nav a:hover {
 .element-wrap {
   background-color: var(--bg);
   margin-bottom: var(--space__m);
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  overflow: hidden;
 }
 .element-wrap__title {
   display: -webkit-flex;
@@ -369,7 +390,7 @@ header nav a:hover {
   padding: var(--space__s);
 }
 .element-wrap__title:hover {
-  opacity: 0.6;
+  background-color: var(--bg_sec);
 }
 .element-wrap__title h2 {
   margin: 0;
@@ -406,13 +427,6 @@ header nav a:hover {
 }
 .icon-wrap .highlight {
   overflow: scroll;
-}
-
-hr {
-  width: 60px;
-  height: 5px;
-  background-color: var(--text);
-  margin: 50px 0;
 }
 
 /*# sourceMappingURL=main.css.map */

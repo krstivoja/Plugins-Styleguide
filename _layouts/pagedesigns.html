@@ -4,14 +4,14 @@ layout: default
 
 {% for pagedesign in site.pagedesigns %}
     <div class="element-wrap" id="{{ pagedesign.slug }}">
-        <div class="element-wrap__title">
+        <a class="element-wrap__title" href="{{side.baseurl}}/pagedesigns/{{pagedesign.slug}}">        
             <h2>{{ pagedesign.title }}</h2>
             <div class="element-wrap__toggle">
                 <svg viewBox="0 0 24 24" >
                     <use xlink:href="#new-window"/>
                   </svg>
             </div>
-        </div>    
+        </a>    
     </div>
     
 {% endfor %}

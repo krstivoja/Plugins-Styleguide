@@ -19,12 +19,34 @@ main{
 
 blockquote{
     background: white;
-    padding: var(--space__s);
+    padding: var(--space__xs);
     margin: 0;
     margin-bottom: var(--space__m);
+    border: 1px solid $border;
+    border-radius: 5px;
+    position: relative;
 
     strong{
-        padding: var(--space__s);
+        position: absolute;
+        top: -20px;
+        padding: var(--space__xs);
+        display: none;
+        background-color: $border;
+        border-radius: 5px;
+        
+    }
+
+    &:hover strong{
         display: block;
     }
 }
+
+
+hr{
+    width: 60px;
+    height: 5px;
+    background-color: $text;
+    margin: 50px 0;
+
+}
+

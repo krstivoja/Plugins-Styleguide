@@ -44,6 +44,9 @@
 .element-wrap{
     background-color:$bg;
     margin-bottom: var(--space__m);
+    border: 1px solid $border;
+    border-radius: 5px;
+    overflow: hidden;
 
     &__title{
         display: flex;
@@ -54,7 +57,7 @@
         padding: var(--space__s);
 
         &:hover{
-            opacity: 0.6;
+            background-color: $bg_sec;
         }
 
         h2{
