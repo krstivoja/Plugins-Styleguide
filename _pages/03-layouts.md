@@ -1,4 +1,4 @@
 ---
-layout: elements
+layout: pagedesigns
 title: Layouts
 ---

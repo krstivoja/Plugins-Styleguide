@@ -1,6 +1,5 @@
 {
     "files.exclude": {
-        "_includes": true,
         "_posts": true,
         "_site": true,
         ".gitignore": true,

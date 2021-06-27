@@ -87,3 +87,5 @@ collections:
     output: true
   components:
     output: true
+  pagedesigns:
+    output: true
