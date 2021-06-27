@@ -20,11 +20,17 @@ title: Input
         rows="3"
         placeholder="textarea">
     </textarea>    
-
-    <input type="button" value="Button">  <br><br>
-    <input type="reset">  <br><br>
-    <input type="submit">    
+    <br><br>
+    <p>
+        Add button classes to input types (button, reset, submit)
+    </p>
+    <br>
+    <input type="button" value="Button" class="dp__btn"> 
+    <input type="reset" class="dp__btn"> 
+    <input type="submit" class="dp__btn">    
+    <br><br>
 </div>    
+
 
 
 {% highlight html %}
@@ -46,8 +52,8 @@ title: Input
         placeholder="textarea">
     </textarea>    
 
-    <input type="button" value="Button"> 
-    <input type="reset"> 
-    <input type="submit">    
+    <input type="button" value="Button" class="dp__btn">  <br><br>
+    <input type="reset" class="dp__btn">  <br><br>
+    <input type="submit" class="dp__btn">    
 </div>   
 {% endhighlight %}

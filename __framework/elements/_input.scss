@@ -1,44 +1,74 @@
-@mixin input-border{
-	border: 2px solid $not-active-color;
-	transition: border-color 0.2s ease;
+.dp__input {
+    input[type=color], 
+    input[type=date], 
+    input[type=datetime-local], 
+    input[type=datetime], 
+    input[type=email], 
+    input[type=month], 
+    input[type=number], 
+    input[type=password], 
+    input[type=search], 
+    input[type=tel], 
+    input[type=text], 
+    input[type=time], 
+    input[type=url], 
+    input[type=week], 
+    select, 
+    textarea
+    {
 
-    &:hover{
-    	border: 2px solid $action;	}
+        font-family: $typo;
+        border: 2px solid $border;
+        transition: border-color 0.2s ease;
+        border-radius: 2px;
 
-    &:focus{
-    	border: 2px solid $action;	}
-
-    &:active{
-    	border: 2px solid $not-active-color;	}	
-}
-
-
-.dp--textarea textarea{
-	@include input-border;
-}
-.dp--date input{
-	@include input-border;
-}
-.dp--time input{
-	@include input-border;
-}
-
-.dp--select select{
-    @include input-border;
-
-    color: $action;
-    background-color: var(--admin_bg);
-    min-width: 300px;
-
-    &:hover,
-    &:active,
-    &:focus,{
-        color: $action--hover;
-        background-color: var(--admin_bg);
-        box-shadow: 0 0 0 0px var(--admin_bg);
+        padding: 5px 10px;
+    
+        &:hover{
+            border: 2px solid $pri;	}
+    
+        &:focus{
+            border: 2px solid $pri;	}
+    
+        &:active{
+            border: 2px solid $border;	
+        }	
     }
 }
 
-input[type=color], input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week], select, textarea{
+
+
+// .dp--select select{
+//     @include input-border;
+
+//     color: $pri;
+//     background-color: var(--admin_bg);
+//     min-width: 300px;
+
+//     &:hover,
+//     &:active,
+//     &:focus,{
+//         color: $pri_h;
+//         background-color: var(--admin_bg);
+//         box-shadow: 0 0 0 0px var(--admin_bg);
+//     }
+// }
+
+input[type=color], 
+input[type=date], 
+input[type=datetime-local], 
+input[type=datetime], 
+input[type=email], 
+input[type=month], 
+input[type=number], 
+input[type=password], 
+input[type=search], 
+input[type=tel], 
+input[type=text], 
+input[type=time], 
+input[type=url], 
+input[type=week], 
+select, 
+textarea{
     background: var(--bg);
 }

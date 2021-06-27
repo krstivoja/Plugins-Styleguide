@@ -1,0 +1,9 @@
+.full__w{
+    width: 100%;
+}
+
+.full__w-element{
+    > *{
+        width: 100%;
+    }
+}

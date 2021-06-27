@@ -4,7 +4,7 @@ title: Switch
 ---
 
 <div class="dp__switch">    
-      <label class="rwmb-switch-label rwmb-switch-label--rounded">
+      <label>
         <input
           type="checkbox"
           checked="checked"
@@ -19,7 +19,7 @@ title: Switch
 
 {% highlight html %}
 <div class="dp__switch">    
-      <label class="rwmb-switch-label rwmb-switch-label--rounded">
+      <label>
         <input
           type="checkbox"
           checked="checked"
