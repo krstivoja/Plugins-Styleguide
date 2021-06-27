@@ -1,7 +1,5 @@
 {
     "files.exclude": {
-        "_components": true,
-        "_config.yml": true,
         "_includes": true,
         "_posts": true,
         "_site": true,

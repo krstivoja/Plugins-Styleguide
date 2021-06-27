@@ -1,4 +1,4 @@
 ---
-layout: default
+layout: components
 title: Components
 ---
