@@ -14,4 +14,15 @@ html{
 @import 'elements/input';    
 @import 'elements/select';     
 @import 'elements/switch';
-// @import 'elements/tabular';
+@import 'elements/tabular';
+
+
+// Copy to clipboard
+
+.dp__copy-to-clip {
+    display: flex;
+
+    > * {
+        margin-right: 10px;
+    }
+}

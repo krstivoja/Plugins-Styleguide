@@ -2,19 +2,20 @@
 layout: default
 title: Copy to clipboard
 ---
+<!-- <style>
+.dp__copy-to-clip{
+    background: red;
+}
+</style> -->
 
-<div class="script-row__edit"> 
-   <div class="font-field swk-field"> 
-    <label>Script name</label> 
-    <input type="text" name="script_name[]" value="test" /> 
-   </div> 
-   <div class="swk-field reg-shortcode"> 
-    <div class="reg-enq">
-     wp_enqueue_script('test'); 
+<div class="dp__copy-to-clip dp__input"> 
+    <input type="text" name="script_name[]" value="testsss" /> 
+    <div class="reg-shortcode"> 
+        <button href="#" class="dp__btn dp__btn-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 0 24 24" width="18px" fill="currentColor"><path d="M0 0h24v24H0z" fill="none"/><path d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"/></svg>
+        </button>
     </div> 
-    <span>Click to copy</span> 
-   </div> 
-</div>
+</div> 
 
 <script>
    // copy scripts manager enqueue code
@@ -48,7 +49,7 @@ title: Copy to clipboard
    jQuery(document).ready(function(){
       jQuery(document).on("click", ".reg-shortcode", function(){
         var currObj = jQuery(this);
-        copyToClipboardDplugins(jQuery(currObj).find('.reg-enq'));
+        copyToClipboardDplugins(jQuery(currObj).find('input'));
         jQuery(currObj).find("span").html("Copied");
         setTimeout(function(){
             jQuery(currObj).find("span").html("Click to copy");
