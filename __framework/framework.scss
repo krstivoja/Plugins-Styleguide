@@ -1,4 +1,4 @@
-html{
+html, body{
     font-size: 16px;
 }
 
@@ -9,21 +9,10 @@ html{
 @import 'base/utility.scss';
 
 @import 'elements/buttons'; 
-@import 'elements/radio'; 
-@import 'elements/checkbox';
-@import 'elements/input';    
-@import 'elements/select';     
-@import 'elements/switch';
-@import 'elements/tabular';
-@import 'elements/tooltip';
-
-
-// Copy to clipboard
-
-.dp__copy-to-clip {
-    display: flex;
-
-    > * {
-        margin-right: 10px;
-    }
-}
+// @import 'elements/radio'; 
+// @import 'elements/checkbox';
+// @import 'elements/input';    
+// @import 'elements/select';     
+// @import 'elements/switch';
+// @import 'elements/tabular';
+// @import 'elements/tooltip';
