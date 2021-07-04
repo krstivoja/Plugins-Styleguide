@@ -177,6 +177,20 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/__framework\/elements\/_tooltip.scss" : {
+      "aP" : 1,
+      "bl" : 1,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 1,
+      "oA" : 1,
+      "oAP" : "\/__framework\/elements\/_tooltip.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/__framework\/framework.scss" : {
       "aP" : 1,
       "bl" : 1,
@@ -706,6 +720,18 @@
       "oA" : 0,
       "oAP" : "\/assets\/css\/main.css.map",
       "oF" : 0
+    },
+    "\/assets\/css\/wordpress.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/css\/wordpress-min.css",
+      "oF" : 0,
+      "pg" : 0
     },
     "\/assets\/img\/dPlugins-logo.svg" : {
       "ft" : 2097152,

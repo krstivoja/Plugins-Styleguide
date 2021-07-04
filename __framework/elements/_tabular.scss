@@ -6,7 +6,7 @@
     background: $bg_sec;
     border-radius: var(--space__xxs);
     padding: var(--space__xxs);
-    // font-size: 13px;
+    font-size: 13px;
     line-height: 1;
 
     > * {
@@ -23,7 +23,7 @@
         margin-right: var(--space__xs);
         
         span{
-            padding: var(--space__xxs) var(--space__xs);
+            padding: var(--space__xs) var(--space__s);
             display: inline-block;
             background: $bg;
             cursor: pointer;
