@@ -1,3 +1,4 @@
+// Theme
 .dp__btn{
     display: inline-flex;
     font-size: 1.1em;
@@ -23,9 +24,6 @@
     }
 }
 
-.dp__btn-large{
-    font-size: 1.5em;
-}
 
 .dp__btn-pri{
     background: $pri;
@@ -60,6 +58,21 @@
     }
 }
 
+
+
+// Sizes
+.dp__btn-lg{
+    font-size: 1.5em;
+}
+
+.dp__btn-sm{
+    font-size: 0.8em;
+}
+
+
+
+
+// Special 
 .dp__btn-icon{
     gap: var(--space__xs);
     svg{

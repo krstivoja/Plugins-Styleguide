@@ -1,17 +1,17 @@
 :root {
-  --pri: #2245f8;
-  --pri-hover:#1636d7;
-  --sec: #ffeb57;
-  --sec-hover:#edba39;
-  --text: #000000;
-  --text_sec: #606e79;
-  --bg: #ffffff;
-  --bg_sec: #f9f9f9;
-  --border: #dee1e3;
-  --disabled: #dee1e3;
-  --info: #3FA7D6;
-  --alert: #c41c3b;
-  --success: #59CD90;
+  --dp__pri: #2a6df4;
+  --dp__pri-hover:#0c57ed;
+  --dp__sec: #ffeb57;
+  --dp__sec-hover:#edba39;
+  --dp__text: #000000;
+  --dp__text_sec: #606e79;
+  --dp__bg: #ffffff;
+  --dp__bg_sec: #f0f0f1;
+  --dp__border: #d3d3d4;
+  --dp__disabled: #dee1e3;
+  --dp__info: #3FA7D6;
+  --dp__alert: #c41c3b;
+  --dp__success: #59CD90;
 }
 
 * {
@@ -36,7 +36,7 @@ blockquote {
   padding: var(--space__xs);
   margin: 0;
   margin-bottom: var(--space__m);
-  border: 1px solid var(--border);
+  border: 1px solid var(--dp__border);
   border-radius: 5px;
   position: relative;
 }
@@ -45,7 +45,7 @@ blockquote strong {
   top: -20px;
   padding: var(--space__xs);
   display: none;
-  background-color: var(--border);
+  background-color: var(--dp__border);
   border-radius: 5px;
 }
 blockquote:hover strong {
@@ -55,7 +55,7 @@ blockquote:hover strong {
 hr {
   width: 60px;
   height: 5px;
-  background-color: var(--text);
+  background-color: var(--dp__text);
   margin: 50px 0;
 }
 
@@ -67,7 +67,7 @@ hr {
   margin-top: 20px;
   padding: 10px 20px;
   border-radius: 10px;
-  background: var(--bg_sec);
+  background: var(--dp__bg_sec);
   overflow-x: scroll;
 }
 .highlighter-rouge .highlight {
@@ -267,9 +267,9 @@ hr {
 }
 
 header {
-  background-color: var(--bg);
-  color: var(--text);
-  border-bottom: 1px solid var(--border);
+  background-color: var(--dp__bg);
+  color: var(--dp__text);
+  border-bottom: 1px solid var(--dp__border);
   width: 100%;
 }
 header .wrap {
@@ -323,7 +323,7 @@ header nav a:hover {
   font-size: 0.8em;
   padding: var(--space__xs);
   border: 1px solid #e1e1e1;
-  background: var(--bg);
+  background: var(--dp__bg);
 }
 .color-wrap .colorbox {
   width: 100%;
@@ -332,49 +332,49 @@ header nav a:hover {
   margin-bottom: 10px;
 }
 .color-wrap .pri {
-  background: var(--pri);
+  background: var(--dp__pri);
 }
 .color-wrap .pri_h {
-  background: var(--pri-hover);
+  background: var(--dp__pri-hover);
 }
 .color-wrap .sec {
-  background: var(--sec);
+  background: var(--dp__sec);
 }
 .color-wrap .sec_h {
-  background: var(--sec-hover);
+  background: var(--dp__sec-hover);
 }
 .color-wrap .text {
-  background: var(--text);
+  background: var(--dp__text);
 }
 .color-wrap .bg {
-  background: var(--bg);
+  background: var(--dp__bg);
 }
 .color-wrap .text_sec {
-  background: var(--text_sec);
+  background: var(--dp__text_sec);
 }
 .color-wrap .bg_sec {
-  background: var(--bg_sec);
+  background: var(--dp__bg_sec);
 }
 .color-wrap .border {
-  background: var(--border);
+  background: var(--dp__border);
 }
 .color-wrap .disabled {
-  background: var(--disabled);
+  background: var(--dp__disabled);
 }
 .color-wrap .info {
-  background: var(--info);
+  background: var(--dp__info);
 }
 .color-wrap .alert {
-  background: var(--alert);
+  background: var(--dp__alert);
 }
 .color-wrap .success {
-  background: var(--success);
+  background: var(--dp__success);
 }
 
 .element-wrap {
-  background-color: var(--bg);
+  background-color: var(--dp__bg);
   margin-bottom: var(--space__m);
-  border: 1px solid var(--border);
+  border: 1px solid var(--dp__border);
   border-radius: 5px;
   overflow: hidden;
 }
@@ -390,7 +390,7 @@ header nav a:hover {
   padding: var(--space__s);
 }
 .element-wrap__title:hover {
-  background-color: var(--bg_sec);
+  background-color: var(--dp__bg_sec);
 }
 .element-wrap__title h2 {
   margin: 0;
@@ -410,7 +410,7 @@ header nav a:hover {
 }
 
 .icon-wrap {
-  background-color: var(--bg);
+  background-color: var(--dp__bg);
   padding: var(--space__s);
   margin-bottom: var(--space__l);
   display: -webkit-inline-flex;
