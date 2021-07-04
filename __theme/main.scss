@@ -3,5 +3,12 @@
 @import 'base';
 @import 'syntax_highlighting';
 
+.dp-framework{
+	code, kbd {
+	    background: transparent !important;
+	    padding: 0;
+	}	
+}
+
 @import 'header';
 @import 'pages';

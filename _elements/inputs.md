@@ -25,9 +25,9 @@ title: Input
         Add button classes to input types (button, reset, submit)
     </p>
     <br>
-    <input type="button" value="Button" class="dp__btn"> 
-    <input type="reset" class="dp__btn"> 
-    <input type="submit" class="dp__btn">    
+    <input type="button" value="Button" class="dp__btn dp__btn-pri"> 
+    <input type="reset" class="dp__btn dp__btn-pri"> 
+    <input type="submit" class="dp__btn dp__btn-pri">    
     <br><br>
 </div>    
 
@@ -52,8 +52,8 @@ title: Input
         placeholder="textarea">
     </textarea>    
 
-    <input type="button" value="Button" class="dp__btn">  <br><br>
-    <input type="reset" class="dp__btn">  <br><br>
-    <input type="submit" class="dp__btn">    
+    <input type="button" value="Button" class="dp__btn dp__btn-pri">  <br><br>
+    <input type="reset" class="dp__btn dp__btn-pri">  <br><br>
+    <input type="submit" class="dp__btn dp__btn-pri">    
 </div>   
 {% endhighlight %}

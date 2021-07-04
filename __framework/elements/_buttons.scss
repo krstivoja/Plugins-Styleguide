@@ -3,17 +3,17 @@
     display: inline-flex;
     font-size: 1.1em;
     text-decoration: none;  
-    padding: var(--space__xs) var(--space__s);  
-    border-radius: .2rem;
+    padding: var(--space__xs);  
+    border-radius: 3px;
     font-weight: 300;
-    letter-spacing: 0.03rem;
+    letter-spacing: 0.02em;
     outline: 0;
     border: 0;
     transition: all 0.1s ease;
     cursor: pointer;
-
-    background-color: $bg_sec;
+    background: $bg;
     color: $pri;
+    border: 2px solid $pri;
 
     &:hover{
         opacity: 0.9;
@@ -27,23 +27,20 @@
 
 .dp__btn-pri{
     background: $pri;
+    border: 2px solid $pri;
     color: white;   
 }
 
 .dp__btn-sec{
     background: $sec;
+    border: 2px solid $sec;
     color: black;
 }
 
 .dp__btn-delete{
     background: $alert;
+    border: 2px solid $alert;
     color: white;
-}
-
-.dp__btn-outline{
-    background: $bg;
-    color: $pri;
-    border: 2px solid $pri;
 }
 
 .dp__btn-text{
@@ -66,7 +63,7 @@
 }
 
 .dp__btn-sm{
-    font-size: 0.8em;
+    font-size: 0.9em;
 }
 
 

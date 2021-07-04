@@ -5,7 +5,7 @@ title: Tabular Radio
 
 
 
-<div class="dp-tabular">
+<div class="dp__tabular">
   <ul>
       <li>
         <label
@@ -47,7 +47,7 @@ title: Tabular Radio
 
 
 {% highlight html %}
-<div class="dp-tabular">
+<div class="dp__tabular">
   <ul>
       <li>
         <label

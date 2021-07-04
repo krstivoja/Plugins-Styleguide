@@ -8,7 +8,7 @@ title: Copy to clipboard
 }
 </style> -->
 
-<div class="dp__copy-to-clip dp__input"> 
+<div class="dp__copy-to-clip dp__input gap__xs"> 
     <input type="text" name="script_name[]" value="testsss" /> 
     <div class="dp__copy-to-clip dp__tooltip"> 
     <span>Copy to clipboard</span>

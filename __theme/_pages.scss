@@ -1,3 +1,8 @@
+.dp-framework main > h1{
+    margin-bottom: var(--space__m);
+    display: block;
+}
+
 .colors{
     display: flex;
     flex-wrap: wrap;

@@ -1,5 +1,5 @@
-html, body{
-    font-size: 16px;
+html .dp-framework{
+    font-size: 15px;
 }
 
 @import 'base/colors.scss';
@@ -9,10 +9,13 @@ html, body{
 @import 'base/utility.scss';
 
 @import 'elements/buttons'; 
-// @import 'elements/radio'; 
-// @import 'elements/checkbox';
-// @import 'elements/input';    
-// @import 'elements/select';     
-// @import 'elements/switch';
-// @import 'elements/tabular';
-// @import 'elements/tooltip';
+@import 'elements/radio'; 
+@import 'elements/checkbox';
+@import 'elements/input';    
+@import 'elements/select';     
+@import 'elements/switch';
+@import 'elements/tooltip';
+
+@import 'components/tabular';
+@import 'components/tabs';
+@import 'components/checkbox-group';
