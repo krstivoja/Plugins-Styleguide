@@ -2,13 +2,8 @@
 layout: default
 title: Copy to clipboard
 ---
-<!-- <style>
-.dp__copy-to-clip{
-    background: red;
-}
-</style> -->
 
-<div class="dp__copy-to-clip dp__input gap__xs"> 
+<div class="dp__copy-to-clip gap__xs"> 
     <input type="text" name="script_name[]" value="testsss" /> 
     <div class="dp__copy-to-clip dp__tooltip"> 
     <span>Copy to clipboard</span>
