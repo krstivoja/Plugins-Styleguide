@@ -539,6 +539,14 @@
       "rFN" : 0,
       "uCM" : 0
     },
+    "\/_includes\/header.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_includes\/header.html",
+      "oF" : 0
+    },
     "\/_includes\/pagination.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -577,6 +585,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/_layouts\/pagedesigns.html",
+      "oF" : 0
+    },
+    "\/_layouts\/pages.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_layouts\/pages.html",
       "oF" : 0
     },
     "\/_pagedesigns\/features.md" : {

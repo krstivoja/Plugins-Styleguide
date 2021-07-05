@@ -14,35 +14,9 @@
 
 </head>
 <body class="dp-framework">
-    <header class="p-y__s">
-        <div class="wrap">
-            <a class='logo__link' href='{{ site.baseurl }}/'>
-                <img src="{{ site.baseurl }}/assets/img/dPlugins-logo.svg" alt="{{ site.title }}">
-            </a>
-            <nav>
-                {% for page in site.pages %}
-                    {% unless page.name == 'index.md' %}
-                    {% if page.title %}
-                        <li class='nav__item' role='presentation'>
-                        <a class='nav__link' href='{{ page.url | prepend: site.baseurl }}'>{{ page.title }}</a>
-                        </li>
-                    {% endif %}
-                    {% endunless %}
-                {% endfor %}    
-            </nav>        
-        </div>        
-    </header>
 
-    <div class="wrap">
-        <main>
-            <h1>{{ page.title }}</h1>
-            {{ content }}
-        </main>
-    </div>       
-    
+    {{ content }}
 
-
-    
     <svg 
         xmlns="http://www.w3.org/2000/svg" 
         height="24px" 
