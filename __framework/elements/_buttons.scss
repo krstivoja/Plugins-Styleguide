@@ -1,3 +1,9 @@
+html .dp-framework{
+
+.spinner{
+    display: none;
+}
+
 // Theme
 .dp__btn{
     display: inline-flex;
@@ -29,6 +35,10 @@
     background: $pri;
     border: 2px solid $pri;
     color: white;   
+    
+    &:hover, &:focus{
+        color: white;   
+    }
 }
 
 .dp__btn-sec{
@@ -66,6 +76,11 @@
     font-size: 0.9em;
 }
 
+.dp__btn-xsm{
+    font-size: 0.9em;
+    line-height: 1;
+}
+
 
 
 
@@ -76,3 +91,6 @@
         fill: currentColor;
     }
 }
+
+
+}  // End of dP Framework

@@ -19,13 +19,13 @@ html .dp-framework {
     {
 
         font-family: $typo;
-        line-height: 1.5;
+        line-height: 1;
         border: 2px solid $border;
         transition: border-color 0.2s ease;
         border-radius: 2px;
         min-width: 250px;
 
-        padding: 5px 10px;
+        padding: var(--space__xs);
     
         &:hover{
             border: 2px solid $pri;	}

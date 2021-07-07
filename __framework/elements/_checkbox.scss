@@ -22,8 +22,8 @@
         background: none;
         border: 2px solid $border;
         
-        height: 20px !important;
-        width: 20px !important;
+        height: var(--space__s) !important;
+        width: var(--space__s) !important;
         margin: 0;
         margin-right: 5px;
         position: relative;
