@@ -3,13 +3,22 @@ layout: pages
 title: Utility Classes
 ---
 
+# Elements
+
+> dp__divider  
+> **extend child element inside container w 100%**
+
+# Layout
+
 > full__w  
 > **extend container w 100%**
 
 > full__w-element  
 > **extend child element inside container w 100%**
 
-> flex  
+# Flex
+
+> flex
 > **Display Flex%**
 
 > grow  
@@ -21,16 +30,13 @@ title: Utility Classes
 > horizontal  
 > **extend child element inside container w 100%**
 
+> space-between  
+> **extend child element inside container w 100%**
+
+> full__w-element  
+> **extend child element inside container w 100%**
+
 <!-- > full__w-element  
-> **extend child element inside container w 100%**
-
-> full__w-element  
-> **extend child element inside container w 100%**
-
-> full__w-element  
-> **extend child element inside container w 100%**
-
-> full__w-element  
 > **extend child element inside container w 100%**
 
 > full__w-element  
