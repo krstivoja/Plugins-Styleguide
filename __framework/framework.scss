@@ -35,7 +35,7 @@ html .dp-framework{
 // <span class="dp__divider"></span>
 
 
-.space-between{
+.space-between {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -50,14 +50,19 @@ html .dp-framework{
     font-weight: 700;
 }
 
-.flex{
+.flex {
     display: flex;
 }
 
-.grow{
-
+.grow {
+    flex-grow: 1;
 }
 
 .vertical {
+    display: flex;
+    align-items: center;
+}
+
+.horizontal {
 
 }

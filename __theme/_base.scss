@@ -21,10 +21,14 @@ blockquote{
     background: white;
     padding: var(--space__xs);
     margin: 0;
-    margin-bottom: var(--space__m);
+    margin-bottom: var(--space__s);
     border: 1px solid $border;
     border-radius: 5px;
     position: relative;
+
+    p{
+        margin: 0;
+    }
 
     strong{
         position: absolute;

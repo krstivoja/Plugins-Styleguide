@@ -25,13 +25,13 @@ title: Utility Classes
 > **Flex Grow 1**
 
 > vertical  
-> **extend child element inside container w 100%**
+> **Display Flex and Vertical center item%**
 
 > horizontal  
 > **extend child element inside container w 100%**
 
 > space-between  
-> **extend child element inside container w 100%**
+> **Display Flex and justify-content: space-between;%**
 
 > full__w-element  
 > **extend child element inside container w 100%**
