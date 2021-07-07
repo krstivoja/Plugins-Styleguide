@@ -34,7 +34,7 @@ blockquote{
     strong{
         position: absolute;
         top: -20px;
-        left: 100%;
+        left: calc(100% + 10px);
         padding: var(--space__xs);
         display: none;
         background-color: $border;
