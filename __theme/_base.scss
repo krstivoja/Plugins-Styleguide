@@ -24,19 +24,22 @@ blockquote{
     margin-bottom: var(--space__s);
     border: 1px solid $border;
     border-radius: 5px;
-    position: relative;
 
-    p{
+    p{  
+        display: inline-block;
         margin: 0;
+        position: relative;
     }
 
     strong{
         position: absolute;
         top: -20px;
+        left: 100%;
         padding: var(--space__xs);
         display: none;
         background-color: $border;
         border-radius: 5px;
+        white-space: nowrap;
         
     }
 
