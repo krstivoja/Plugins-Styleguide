@@ -3,12 +3,12 @@ layout: pages
 title: Utility Classes
 ---
 
-# Elements
+### Elements
 
 > dp__divider  
 > **extend child element inside container w 100%**
 
-# Layout
+### Layout
 
 > full__w  
 > **extend container w 100%**
@@ -16,7 +16,7 @@ title: Utility Classes
 > full__w-element  
 > **extend child element inside container w 100%**
 
-# Flex
+### Flex
 
 > flex
 > **Display Flex%**
