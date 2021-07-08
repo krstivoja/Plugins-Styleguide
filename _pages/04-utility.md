@@ -16,6 +16,18 @@ title: Utility Classes
 > full__w-element  
 > **extend child element inside container w 100%**
 
+> full__w-element  
+> **extend child element inside container w 100%**
+
+> full__w-element  
+> **extend child element inside container w 100%**
+
+> full__w-element  
+> **extend child element inside container w 100%**
+
+> full__w-element  
+> **extend child element inside container w 100%**
+
 ### Flex
 
 > flex

@@ -1,7 +1,3 @@
-html .dp-framework{
-    font-size: 14px;
-}
-
 @import 'base/colors.scss';
 @import 'base/typography.scss';
 @import 'base/breakpoints.scss';
@@ -21,48 +17,3 @@ html .dp-framework{
 @import 'components/tabs';
 @import 'components/checkbox-group';
 @import 'components/cards';
-
-
-.dp__divider{
-    background-color: $border;
-    width: 100%;
-    height: 1px;
-    display: block;
-    margin: var(--space__s) 0 var(--space__m) 0;
-    border-radius: 4px;
-}
-// Usage
-// <span class="dp__divider"></span>
-
-
-.space-between {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
-    > * {
-        margin: 0;
-    }
-}
-
-
-.dp-framework .wp-heading-inline {
-    font-weight: 700;
-}
-
-.flex {
-    display: flex;
-}
-
-.grow {
-    flex-grow: 1;
-}
-
-.vertical {
-    display: flex;
-    align-items: center;
-}
-
-.horizontal {
-
-}
